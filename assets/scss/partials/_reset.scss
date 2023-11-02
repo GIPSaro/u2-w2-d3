@@ -1,0 +1,19 @@
+@import "./colori";
+@import "./animazioni";
+section {
+  padding: 10px;
+}
+
+#headline {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+.nav-flex {
+  background-color: $text;
+  cursor: pointer;
+}
+// .hero {
+//     opacity: 0;
+//   @include move(4s, -900px, 0, 2s);
+// }

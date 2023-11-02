@@ -1,0 +1,25 @@
+@mixin spacing($pad: 0, $mar: 0, $dis) {
+  padding: $pad;
+  margin: $mar;
+  display: $dis;
+}
+.nav-flex {
+  @include spacing(1em, 0, flex);
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  img {
+    width: 10em;
+    height: 10em;
+  }
+}
+.ul-flex {
+  @include spacing(0, 0, flex);
+  li {
+    @include spacing(1em, 0, block);
+  }
+  a {
+    text-decoration: none;
+    color: $purple;
+  }
+}

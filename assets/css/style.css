@@ -1,0 +1,146 @@
+h1 {
+  color: #640fc5;
+}
+
+.animate,
+.animate2 {
+  animation: fadeIn 4s ease-out 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-900px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  padding: 10px;
+}
+
+#headline {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.nav-flex {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.animate,
+.animate2 {
+  animation: fadeIn 4s ease-out 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-900px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  color: #640fc5;
+}
+
+.pct {
+  border-radius: 30px;
+  box-shadow: 13px 13px 20px 5px #640fc5;
+  border: 2px solid #ff8700;
+  width: 25%;
+}
+
+.btn-1 {
+  background-color: #640fc5;
+  color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-2 {
+  background-color: #4caf50;
+  color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-3 {
+  background-color: #0e6cff;
+  color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#transform:hover {
+  border-radius: 30px;
+  box-shadow: 13px 13px 20px 5px #640fc5;
+  border: 1px solid #ff8700;
+  z-index: 1;
+  transform: scale(1.2);
+}
+
+h1 {
+  color: #640fc5;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.pct {
+  border-radius: 30px;
+  box-shadow: 13px 13px 20px 5px #640fc5;
+  border: 2px solid #ff8700;
+  width: 25%;
+}
+
+.nav-flex {
+  padding: 1em;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.nav-flex img {
+  width: 10em;
+  height: 10em;
+}
+
+.ul-flex {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.ul-flex li {
+  padding: 1em;
+  margin: 0;
+  display: block;
+}
+.ul-flex a {
+  text-decoration: none;
+  color: #640fc5;
+}/*# sourceMappingURL=style.css.map */

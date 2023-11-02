@@ -1,0 +1,18 @@
+@mixin move($par1, $par2, $par3, $par4) {
+  animation: fadeIn $par1 ease-out $par4;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY($par2);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY($par3);
+    }
+  }
+}
+.animate,
+.animate2 {
+  @include move(4s, -900px, 0, 2s);
+}

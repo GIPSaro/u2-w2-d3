@@ -1,0 +1,9 @@
+@mixin floating($x: 0, $y: 0, $z: 0) {
+  border-radius: 30px;
+  box-shadow: 3+ ($x) 3+ ($y) 20px 5px $purple;
+  border: $z solid $orange;
+}
+.pct {
+  @include floating(10px, 10px, 2px);
+  width: 25%;
+}
