@@ -32,6 +32,11 @@ section {
   cursor: pointer;
 }
 
+.pct,
+.pct2 {
+  width: 25%;
+}
+
 .animate,
 .animate2 {
   animation: fadeIn 4s ease-out 2s;
@@ -55,7 +60,6 @@ h1 {
   border-radius: 30px;
   box-shadow: 13px 13px 20px 5px #640fc5;
   border: 2px solid #ff8700;
-  width: 25%;
 }
 
 .btn-1 {
@@ -114,7 +118,6 @@ h1 {
   border-radius: 30px;
   box-shadow: 13px 13px 20px 5px #640fc5;
   border: 2px solid #ff8700;
-  width: 25%;
 }
 
 .nav-flex {
